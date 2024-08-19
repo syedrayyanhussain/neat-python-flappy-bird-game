@@ -22,21 +22,23 @@ To run this project, you need to have Python and the required libraries installe
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/yourusername/flappy-bird-neat.git
+    Open Command Prompt or PowerShell and run:
+
+    ```cmd
+    git clone https://github.com/syedrayyanhussain/flappy-bird-neat.git
     cd flappy-bird-neat
     ```
 
 2. **Create a virtual environment (optional but recommended):**
 
-    ```bash
+    ```cmd
     python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    venv\Scripts\activate
     ```
 
 3. **Install the required packages:**
 
-    ```bash
+    ```cmd
     pip install pygame neat-python
     ```
 
@@ -61,7 +63,7 @@ To start the game and train the neural network:
 
 1. **Run the main script:**
 
-    ```bash
+    ```cmd
     python main.py
     ```
 
@@ -79,5 +81,3 @@ Contributions are welcome! If you have suggestions or improvements, please creat
 4. Commit your changes (`git commit -am 'Add new feature'`).
 5. Push to the branch (`git push origin feature-branch`).
 6. Create a pull request.
-
-
